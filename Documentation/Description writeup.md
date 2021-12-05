@@ -17,7 +17,7 @@ The data that will be used in this project has been extracted from Tlc Trip Reco
 | Trip_distance         | The elapsed trip distance in miles reported by the taximeter.
 | PULocationID          | TLC Taxi Zone in which the taximeter was engaged
 | DOLocationID          | TLC Taxi Zone in which the taximeter was disengaged
-| RateCodeID            |The final rate code in effect at the end of the trip. 1= Standard rate,2=JFK,3=Newark,4=NassauORWestchester,5=NegotiatedFare,6=GroupRide
+| RateCodeID            |The final rate code in effect at the end of the trip. ( 1= Standard rat|2=JFK|3=Newark,4=NassauORWestchester,5=NegotiatedFare,6=GroupRide )
 | Store_and_fwd_flag    | This flag indicates whether the trip record was held in vehicle memory before sending to the vendor.
 | level                 | Course level
 
