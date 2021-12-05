@@ -1,11 +1,11 @@
-# NYC Taxi and Limousine Commission 
+# NYC Taxi and Limousine Commission - TLC Trip Data 
 
 
 ## Abstract
-The goal of this project is to apply Linear Regression on data scraped from Udemy website, to predict the rating of courses based on the features of those courses (prices, reviews, total hours, etc.). I worked with data that I have scraped from Udemy.com using Selenium and BeautifulSoup.  After getting the data we start to clean them remove nulls values, fill null discount with zeros and extract numbers from string. After that we started to explore the dataset and split the data into %60 train/%20validation, and %20 for the test .Finally we tried different types of models to find the best one that fit our data which is Polynomial.
+The goal of this project is to apply Linear Regression algorithms on Tlc Trip data  , to predict the fare amount of trips based on the features  (VendorID, Passenger_count, Trip_distance , etc.). I worked with data that I have been analyzing the dataset.  After getting the data we start to clean them remove nulls values, fill null discount with zeros and extract numbers from string. After that we started to explore the dataset and split the data into %60 train/%20validation, and %20 for the test .Finally we tried different types of models to find the best one that fit our data which is simple Linear Regression .
 
 ## Data
-The data that will be used in this project has been extracted from Udemy website (https://www.udemy.com/courses/it-and-software/). It includes data such as: (rating, prices, trainers, etc.) for each course. It includes 10 features, and below is the description of each one:
+The data that will be used in this project has been extracted from Tlc Trip Record Data website (https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page). It includes data such as: (trip distance, fare amount , tip amount , etc.) for each course. It includes 19 features and more than 10 millions , and below is the description of each one:
 
 
 | Feature               | Description                                                                     |
