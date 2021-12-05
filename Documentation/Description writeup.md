@@ -10,24 +10,31 @@ The data that will be used in this project has been extracted from Tlc Trip Reco
 
 | Feature               | Description                                                                     |
 |-----------------------|---------------------------------------------------------------------------------|
-| VendorID              |	A code indicating the TPEP provider that provided the recorde (1= Creative Mobile Technologies, LLC; 2= VeriFone Inc).
+| VendorID              |	A code indicating the TPEP provider that provided the recorde (1= Creative Mobile Technologies,2= VeriFone Inc).
 | tpep_pickup_datetime  | The date and time when the meter was engaged.
 | tpep_dropoff_datetime | The date and time when the meter was disengaged.
 | Passenger_count       | The number of passengers in the vehicle.
 | Trip_distance         | The elapsed trip distance in miles reported by the taximeter.
 | PULocationID          | TLC Taxi Zone in which the taximeter was engaged
 | DOLocationID          | TLC Taxi Zone in which the taximeter was disengaged
-| RateCodeID            |The final rate code in effect at the end of the trip. ( 1= Standard rat|2=JFK|3=Newark,4=NassauORWestchester,5=NegotiatedFare,6=GroupRide )
-| Store_and_fwd_flag    | This flag indicates whether the trip record was held in vehicle memory before sending to the vendor.
-| level                 | Course level
+| RateCodeID            | The final rate code in effect at the end of the trip. ( 1= Standard rat, 2=JFK, 3=Newark , 4=NassauORWestchester , 5=NegotiatedFare, 6=GroupRide )
+| Store_and_fwd_flag    | This flag indicates whether the trip record was held in vehicle memory before sending to the vendor.(Y= store and forward trip N= not a store&forward ) 
+| Payment_type          | A numeric code signifying how the passenger paid for the trip. 1= Credit card,2= Cash,3= No charge,4= Dispute,5= Unknown,6= Voided trip
+| Fare_amount           | The time-and-distance fare calculated by the meter.
+| Extra                 | Miscellaneous extras and surcharges. Currently, this only includes the $0.50 and $1 rush hour and overnight charges.
+| MTA_tax               | $0.50 MTA tax that is automatically triggered based on the metered rate in use.
+| Improvement_surcharge | $0.50 MTA tax that is automatically triggered based on the metered rate in use.
+| Tip_amount            | This field is automatically populated for credit card tips. Cash tips are not included.
+| Tolls_amount          | Total amount of all tolls paid in trip.
+| Total_amount          | The total amount charged to passengers. Does not include cash tips.
 
-* 10 features
-* +9k rows
+* 18 features
+* 10M rows
 
 ## Algorithms
 Our steps in this project was:
 1. Problem understanding
-2. Data gathering by scrapping 
+2. Data Collection
 3. Data exploration and visualization
 4. Feature engineering
 5. Starting training and validation our data on different models. 
@@ -36,9 +43,8 @@ Our steps in this project was:
 - Python and Jupyter Notebook
 - Numpy and Pandas for data manipulation
 - Matplotlib and Seaborn for plotting visuialization
-- BeautifulSoup and selenium for web scraping
 - Sklearn for ML algorithms
-- HTML/CSS
+
 
 ## Communication
 In addition to the slides and visuals presented, we will share our work on our Github accounts
