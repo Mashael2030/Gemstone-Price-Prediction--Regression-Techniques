@@ -48,5 +48,5 @@ Our steps in this project was:
 
 ## Communication
 In addition to the slides and visuals presented, we will share our work on our Github accounts
-* https://github.com/RawabiKhalaf/curses-rating-prediction/blob/main/Source_code.ipynb
+* 
 
