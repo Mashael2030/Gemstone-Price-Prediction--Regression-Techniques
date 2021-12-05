@@ -10,15 +10,15 @@ The data that will be used in this project has been extracted from Tlc Trip Reco
 
 | Feature               | Description                                                                     |
 |-----------------------|---------------------------------------------------------------------------------|
-| VendorID              |	A code indicating the TPEP provider that provided the record (####1= Creative Mobile Technologies, LLC; 2= VeriFone Inc).
-| Description           |	Description of course content
-| Price                 | The original price
-| Discount              | The price after discount
-| Rating                | The price after discount
-| Reviews              	| The total number of reviews
-| Trainer               | Trainer’s name
-| Total_hours           | Duration of the course
-| Total_lectures        | Number of lectures
+| VendorID              |	A code indicating the TPEP provider that provided the recorde (1= Creative Mobile Technologies, LLC; 2= VeriFone Inc).
+| tpep_pickup_datetime  | The date and time when the meter was engaged.
+| tpep_dropoff_datetime | The date and time when the meter was disengaged.
+| Passenger_count       | The number of passengers in the vehicle.
+| Trip_distance         | The elapsed trip distance in miles reported by the taximeter.
+| PULocationID          | TLC Taxi Zone in which the taximeter was engaged
+| DOLocationID          | TLC Taxi Zone in which the taximeter was disengaged
+| RateCodeID            |The final rate code in effect at the end of the trip. 1= Standard rate,2=JFK,3=Newark,4=NassauORWestchester,5=NegotiatedFare,6=GroupRide
+| Store_and_fwd_flag    | This flag indicates whether the trip record was held in vehicle memory before sending to the vendor.
 | level                 | Course level
 
 * 10 features
