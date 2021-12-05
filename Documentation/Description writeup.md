@@ -11,7 +11,7 @@ The data that will be used in this project has been extracted from Tlc Trip Reco
 | Feature               | Description                                                                     |
 |-----------------------|---------------------------------------------------------------------------------|
 | VendorID              |	A code indicating the TPEP provider that provided the re
-                        | 1= Creative Mobile Technologies, LLC; 2= VeriFone Inc.
+|                       | 1= Creative Mobile Technologies, LLC; 2= VeriFone Inc.
 | Description           |	Description of course content
 | Price                 | The original price
 | Discount              | The price after discount
