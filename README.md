@@ -1,4 +1,4 @@
-# TLC Trip Regression Techniques
+# Taxi Trip Regression Techniques
 SDAIA T5 Data Science Bootcamp Linear Regression Project by
 * [Project Proposal](https://github.com/Mashael2030/TLC-Trip-Regression-Techniques/blob/main/Documentation/Project%20Proposal.md)
 * [Final Report](https://github.com/Mashael2030/TLC-Trip-Regression-Techniques/blob/main/Documentation/Description%20writeup.md)
